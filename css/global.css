@@ -1,0 +1,86 @@
+td{
+	border-collapse: collapse;
+	border: 3px solid black;
+	padding: 3px;
+}
+.header 
+{
+	font-weight: bold;
+}
+
+.InStock
+{
+	font-size:10pt;
+}
+
+.InStock .Caption
+{
+	
+}
+
+.Instock .Author
+{
+	
+}
+
+.InStock .About
+{
+	
+}
+
+.Instock .ISBN
+{
+	word-wrap: normal;
+}
+
+.InStock .Price
+{
+	font-size: 16pt;
+	color:Blue;
+}
+
+.InStock .Stock
+{
+	background-color:Green;
+	color:white;
+}
+
+.NotInStock 
+{
+	background-color: gray;
+	font-size: 10pt;
+	color: white;
+}
+
+.NotInStock .Caption
+{
+	text-decoration:line-through;
+}
+
+.NotInStock .Author
+{
+	text-decoration:line-through;
+}
+
+.NotInStock .About
+{
+	text-decoration:line-through;
+}
+
+.NotInstock .ISBN
+{
+	
+}
+
+.NotInStock .Price
+{
+	font-size: 16pt;
+	color:Blue;
+	text-decoration:line-through;
+}
+
+.NotInStock .Stock
+{
+	background-color:Red;
+	color:white;
+}
